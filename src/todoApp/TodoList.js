@@ -5,7 +5,7 @@ export const TodoList = ({todoList}) => (
     <ul>
         {
         
-            todoList.map((todo) => <li> <Todo key={todo.toString()} {...todo}/> </li>)
+            todoList.map(todo => <li> <Todo key={todo.toString()} {...todo}/> </li>)
         }
     </ul>
 );
