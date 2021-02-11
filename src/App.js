@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoList  from "./TodoList";
+import { TodoList }  from "./todoApp/TodoList";
 
 function App() {
 

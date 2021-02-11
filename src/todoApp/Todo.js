@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Todo = ({text, priority, dueDate}) => (
+export const Todo = ({text, priority, dueDate}) => (
     <div>
         <h2>{text}</h2>
         <p>Priority: {priority}</p>
@@ -8,4 +8,4 @@ const Todo = ({text, priority, dueDate}) => (
     </div>
 );
 
-export default Todo;
+
